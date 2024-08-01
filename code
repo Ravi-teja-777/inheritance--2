@@ -1,0 +1,35 @@
+import java.util.*;
+import java.io.*;
+import java.lang.*;
+
+class Ravi{
+    public void method1(){
+        Scanner i = new Scanner(System.in);
+        System.out.print("");
+        int a[]={1,2,3,4,5,6,7};
+        for(int k:a){
+            System.out.println(k);
+        }
+        
+    }
+}
+
+class N extends Ravi{
+    public void method2(){
+        Scanner i = new Scanner(System.in);
+        System.out.print("");
+        String a[]={"Sai","Ravi","Teja","Prasanna"};
+        for(String j:a){
+            System.out.println(j);
+        }
+    }
+}
+
+public class Tharuna{
+    public static void main(String args[]){
+        N obj=new N();
+        obj.method1();
+        obj.method2();
+    }
+}
+
